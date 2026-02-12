@@ -5,8 +5,9 @@
 Students will:
 1. Load a spam email dataset (1000 emails, 10 features)
 2. Train a **Naive Bayes** classifier
-3. Train an **SVM** classifier
-4. Compare the results
+3. Train a **k-Nearest Neighbors** classifier
+4. Train an **SVM** classifier
+5. Compare the results
 
 **Time Required:** 3-5 hours
 
@@ -42,21 +43,25 @@ Students will:
 - Make predictions
 - View confusion matrix
 
-### Step 4: Train SVM
+### Step 4: Train k-Nearest Neighbors
+- Determine best value of $k$
+- Create kNN model
+- Make predictions
+- View confusion matrix
+
+### Step 5: Train SVM
 - Create SVM model with RBF kernel
 - Make predictions
 - View confusion matrix
 
-### Step 5: Compare Models
+### Step 6: Compare Models
 - Compare accuracy, precision, recall, F1-score
 - Create comparison visualization
 
-### Step 6: Discussion Questions
+### Step 7: Discussion Questions
 - Which model performed better?
 - What's the difference between metrics?
 - When to use each algorithm?
-
-A full report is not necessary on this project. Just create and compare the two models and answer the questions at the end.
 
 ---
 
@@ -124,6 +129,12 @@ Students should see:
 - **Assumption:** Features are independent
 - **Pros:** Fast, simple, works well with limited data
 - **Cons:** Independence assumption rarely holds
+
+### k-Nearest Neighbors
+- **Type:** Instance-based/lazy learner
+- **Assumption:** Similar data points belong to the same class
+- **Pros:** Simple, no training phase, works well with irregular decision boundaries, naturally handles multi-class
+- **Cons:** Slow predictions, sensitive to irrelevant features, requires feature scaling, memory intensive (stores all training data)
 
 ### SVM (Support Vector Machine)
 - **Type:** Margin-based classifier
