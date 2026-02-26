@@ -196,11 +196,11 @@ pip install scikit-learn
 
 ## Submission Checklist
 
-- [ ] Notebook runs completely without errors
-- [ ] All cells have output visible
-- [ ] Comparison tables (confusion matrix and classification report) are generated
-- [ ] All 4 discussion questions are answered
-- [ ] Your name and date are filled in
+- [x] Notebook runs completely without errors
+- [x] All cells have output visible
+- [x] Comparison tables (confusion matrix and classification report) are generated
+- [x] All 4 discussion questions are answered
+- [x] Your name and date are filled in
 
 ---
 
